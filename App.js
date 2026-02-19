@@ -341,8 +341,8 @@ const styles = StyleSheet.create({
     borderColor: '#5A5A5A'
   },
   highlightGradient: {
-    width: 64,
-    height: 64,
+    width: 60,
+    height: 60,
     borderRadius: 50,
     padding: 3,
   },
