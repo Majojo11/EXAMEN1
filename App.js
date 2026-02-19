@@ -10,48 +10,6 @@ import FontAwesome5 from '@expo/vector-icons/FontAwesome5';
 import FontAwesome6 from '@expo/vector-icons/FontAwesome6';
 import Octicons from '@expo/vector-icons/Octicons';
 
-/*PARTE 2 — CODING CHALLENGE (50 pts)
-Historia tipo Instagram Stories
-Usando React Native con Expo, crea una pantalla tipo historia de red social.
-Debe incluir:
-Foto de perfil
-Nombre de usuario
-Imagen o fondo de historia
-Texto de la historia
-Contador de visualizaciones
-Botón “Ver historia” (que sera el highlight)
-Botón “Cerrar historia” (que sera la x en la esquina de la historia)
-
-Funcionalidad obligatoria
-Debes usar useState.
-
-EXAMEN PARCIAL – DESARROLLO DE APPS CON REACT NATIVE 2
-
-Al presionar Ver historia:
-La historia aparece 
-//https://react-bootstrap.netlify.app/docs/components/modal/
-Aumentan visualizaciones +1
-Al presionar Cerrar historia:
-La historia desaparece
-Mostrar visualizaciones en tiempo real
-Mostrar texto:
-“Historia no vista” cuando está cerrada
-“Vista” cuando ya se abrió
-
-Reglas
-Visualizaciones no pueden ser negativas
-Debe usarse useState correctamente
-Usar View, Text e Image
-La app debe funcionar sin errores
-Diseño libre pero ordenado
-
-Puntos extra (+10)
-Agrega una mejora:
-Cambiar color cuando se vea la historia //https://css--tricks-com.translate.goog/gradient-borders-in-css/?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc
-Foto circular estilo app real
-Diseño creativo
-Animación simple (si saben)*/
-
 export default function App() {
   const [followers, setFollowers] = useState(947);
     const [isFollowing, setIsFollowing] = useState(false);
